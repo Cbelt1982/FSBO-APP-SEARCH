@@ -14,7 +14,7 @@ st.set_page_config(
 
 # --- Embed your uploaded background image as base64 ---
 def get_base64_of_uploaded_file():
-    with open("BACKGROUND.JPG.jpg", "rb") as f:
+    with open("BACKGROUND.JPG.JPG", "rb") as f:  # <-- Use the exact filename from your repo
         data = f.read()
     return base64.b64encode(data).decode()
 
@@ -45,43 +45,43 @@ st.markdown("""
 <style>
 /* Change the font for the whole app */
 html, body, [class*="st-"]  {
-    font-family: 'dingle';
-    font-size: 25px;
-    color: #000000;
+    font-family: 'IMPACT', COLLEGE, sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
 }
 /* Change the main title font, size, and color */
 .stApp h1 {
-    font-family: 'dingle', staatliches;
+    font-family: 'squiborn', staatliches;
     font-size: 48px;
-    color: #000000;
+    color: #FFFFFF;
     text-shadow: 1px 1px 2px #fff;
-    font-weight: Regular;
+    font-weight: bold;
 }
 /* Change all subheaders */
 .stApp h2, .stApp h3 {
     color: #2c3e50;
-    font-family: 'dingle', Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 /* Change sidebar font and color */
 .css-1d391kg, .css-1v0mbdj {
     color: #1a5d1a !important;
     font-size: 18px !important;
-    font-family: 'dingle', Arial, sans-serif !important;
+    font-family: 'Segoe UI', Arial, sans-serif !important;
 }
 </style>
 """, unsafe_allow_html=True)
 
 # App title and description
-st.title("FSBO IN YOUR AREA")
-st.markdown("### SEARCH AND GET INSTANT LINKS TO FSBO LISTINGS ACROSS ALL PLATFORMS")
+st.title("🏡 For Sale By Owner in Your Area")
+st.markdown("### SEARCH AND GET INSTANT URL LINKS TO FSBO LISTINGS ACROSS ALL PLATFORMS")
 
 # Sidebar for search settings
-st.sidebar.header("🔧 REFINE YOUR SEARCH")
+st.sidebar.header("🔧 Search Settings")
 st.sidebar.markdown("---")
 
-location = st.sidebar.text_input("📍 Location (city, state)", "Austin TX", help="Enter the city and state where you want to search for land")
+location = st.sidebar.text_input("📍 Location (city, state, country)", "Austin TX", help="Enter the city, state, or country where you want to search for land")
 
-st.sidebar.markdown("**Lot Size & Price Requirements:**")
+st.sidebar.markdown("**Size & Price Requirements:**")
 col1, col2 = st.sidebar.columns(2)
 with col1:
     min_acres = st.number_input("Min Acres", min_value=0.0, value=1.0, step=0.5)
