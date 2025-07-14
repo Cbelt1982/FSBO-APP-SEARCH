@@ -51,11 +51,11 @@ html, body, [class*="st-"]  {
 }
 /* Change the main title font, size, and color */
 .stApp h1 {
-    font-family: 'AERIAL';
+    font-family: 'impact';
     font-size: 60px;
     color: #000000;
     text-shadow: 1px 1px 2px #fff;
-    font-weight: regular;
+    font-weight: ;
 }
 /* Change all subheaders */
 .stApp h2, .stApp h3 {
@@ -73,7 +73,7 @@ html, body, [class*="st-"]  {
 
 # App title and description
 st.title("FIND FSBO IN YOUR AREA!")
-st.markdown("### SEARCH AND GET INSTANT LINKS TO FSBO LISTINGS ACROSS ALL PLATFORMS")
+st.markdown("### SEARCH AND GET INSTANT LINKS TO "For Sale By Owner" LISTINGS ACROSS ALL PLATFORMS")
 
 # Sidebar for search settings
 st.sidebar.header("🔧 REFINE YOUR SEARCH")
