@@ -46,13 +46,13 @@ st.markdown("""
 /* Change the font for the whole app */
 html, body, [class*="st-"]  {
     font-family: 'DINGLE', COLLEGE, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     color: #000000;
 }
 /* Change the main title font, size, and color */
 .stApp h1 {
     font-family: 'DINGLE', staatliches;
-    font-size: 20px;
+    font-size: 60px;
     color: #000000;
     text-shadow: 1px 1px 2px #fff;
     font-weight: regular;
