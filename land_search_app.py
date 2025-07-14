@@ -45,13 +45,13 @@ st.markdown("""
 <style>
 /* Change the font for the whole app */
 html, body, [class*="st-"]  {
-    font-family: 'DINGLE', COLLEGE, sans-serif;
+    font-family: 'DINGLE', COLOMBO, sans-serif;
     font-size: 20px;
     color: #000000;
 }
 /* Change the main title font, size, and color */
 .stApp h1 {
-    font-family: 'NAVILL';
+    font-family: 'COLOMBO';
     font-size: 60px;
     color: #000000;
     text-shadow: 1px 1px 2px #fff;
