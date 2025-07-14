@@ -51,7 +51,7 @@ html, body, [class*="st-"]  {
 }
 /* Change the main title font, size, and color */
 .stApp h1 {
-    font-family: 'IMPACT';
+    font-family: 'NAVILL';
     font-size: 60px;
     color: #000000;
     text-shadow: 1px 1px 2px #fff;
