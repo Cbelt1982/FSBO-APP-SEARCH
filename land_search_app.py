@@ -73,7 +73,7 @@ html, body, [class*="st-"]  {
 
 # App title and description
 st.title("FIND FSBO IN YOUR AREA!")
-st.markdown("### SEARCH AND GET INSTANT LINKS TO "For Sale By Owner" LISTINGS ACROSS ALL PLATFORMS")
+st.markdown("### SEARCH AND GET INSTANT LINKS TO For Sale By Owner LISTINGS ACROSS ALL PLATFORMS")
 
 # Sidebar for search settings
 st.sidebar.header("🔧 REFINE YOUR SEARCH")
