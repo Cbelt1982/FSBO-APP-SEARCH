@@ -46,34 +46,34 @@ st.markdown("""
 /* Change the font for the whole app */
 html, body, [class*="st-"]  {
     font-family: 'IMPACT', COLLEGE, sans-serif;
-    font-size: 22px;
-    color: #FFFFFF;
+    font-size: 30px;
+    color: #000000;
 }
 /* Change the main title font, size, and color */
 .stApp h1 {
-    font-family: 'squiborn', staatliches;
+    font-family: 'DINGLE', staatliches;
     font-size: 48px;
-    color: #FFFFFF;
+    color: #000000;
     text-shadow: 1px 1px 2px #fff;
-    font-weight: bold;
+    font-weight: regular;
 }
 /* Change all subheaders */
 .stApp h2, .stApp h3 {
     color: #2c3e50;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'DINGLE', Arial, sans-serif;
 }
 /* Change sidebar font and color */
 .css-1d391kg, .css-1v0mbdj {
     color: #1a5d1a !important;
-    font-size: 18px !important;
-    font-family: 'Segoe UI', Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-family: 'DINGLE', Arial, sans-serif !important;
 }
 </style>
 """, unsafe_allow_html=True)
 
 # App title and description
-st.title("🏡 For Sale By Owner in Your Area")
-st.markdown("### SEARCH AND GET INSTANT URL LINKS TO FSBO LISTINGS ACROSS ALL PLATFORMS")
+st.title("FSBO in Your Area")
+st.markdown("### SEARCH AND GET INSTANT LINKS TO FSBO LISTINGS ACROSS ALL PLATFORMS")
 
 # Sidebar for search settings
 st.sidebar.header("🔧 Search Settings")
