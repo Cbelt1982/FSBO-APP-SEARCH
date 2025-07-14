@@ -45,14 +45,14 @@ st.markdown("""
 <style>
 /* Change the font for the whole app */
 html, body, [class*="st-"]  {
-    font-family: 'IMPACT', COLLEGE, sans-serif;
-    font-size: 30px;
+    font-family: 'DINGLE', COLLEGE, sans-serif;
+    font-size: 40px;
     color: #000000;
 }
 /* Change the main title font, size, and color */
 .stApp h1 {
     font-family: 'DINGLE', staatliches;
-    font-size: 48px;
+    font-size: 20px;
     color: #000000;
     text-shadow: 1px 1px 2px #fff;
     font-weight: regular;
@@ -72,11 +72,11 @@ html, body, [class*="st-"]  {
 """, unsafe_allow_html=True)
 
 # App title and description
-st.title("FSBO in Your Area")
+st.title("FIND FSBO IN YOUR AREA!")
 st.markdown("### SEARCH AND GET INSTANT LINKS TO FSBO LISTINGS ACROSS ALL PLATFORMS")
 
 # Sidebar for search settings
-st.sidebar.header("🔧 Search Settings")
+st.sidebar.header("🔧 REFINE YOUR SEARCH")
 st.sidebar.markdown("---")
 
 location = st.sidebar.text_input("📍 Location (city, state, country)", "Austin TX", help="Enter the city, state, or country where you want to search for land")
